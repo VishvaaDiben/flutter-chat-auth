@@ -17,6 +17,8 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
   bool showSpinner = false;
   String email;
   String password;
+  String entry;
+  bool _isVisible = false;
 
   @override
   Widget build(BuildContext context) {
@@ -72,19 +74,28 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                   try {
                     final newUser = await _auth.createUserWithEmailAndPassword(
                         email: email, password: password);
-                    if(newUser != null){
+                    if (newUser != null) {
                       Navigator.pushNamed(context, ChatScreen.id);
                     }
                     setState(() {
                       showSpinner = false;
                     });
-                  }
-                  catch(e){
+                  } catch (e) {
+                    //messages
+                    setState(() {
+                      showSpinner = false;
+                      _isVisible = !_isVisible;
+                    });
+                    entry = 'Invalid entry';
                     print(e);
                   }
                 },
                 title: 'Register',
                 colour: Colors.blueAccent,
+              ),
+              Visibility(
+                visible: _isVisible,
+                child: Text('$entry'),
               )
             ],
           ),
