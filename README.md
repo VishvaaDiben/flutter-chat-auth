@@ -12,7 +12,7 @@ Objective is = Incorporate Firebase. Used Firebase Cloud Firestore & Firebase au
 
 Built messaging app where users can sign up and log in to chat.
 
-https://drive.google.com/open?id=1dQUwpw_tJDj1NiwRsvQ_WxwOGWqfX0dw
+[Video]https://drive.google.com/open?id=1dQUwpw_tJDj1NiwRsvQ_WxwOGWqfX0dw
 
 
 ## What learnt
@@ -24,4 +24,4 @@ https://drive.google.com/open?id=1dQUwpw_tJDj1NiwRsvQ_WxwOGWqfX0dw
 - Learn all about mixins and how they differ from superclasses.
 - Learn about Streams and how they work.
 - Learn to use ListViews to build scrolling views.
-- How to use Firebase Cloud Firestore to store and retrieve data on the fly.
+- How to use Firebase Cloud Firestore to store and retri
