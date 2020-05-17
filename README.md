@@ -3,16 +3,17 @@
 
 # Flash Chat ⚡️
 
-## Our Goal
+## Goal
 
-The objective of this tutorial is to learn how to incorporate Firebase into our Flutter apps. We'll be using Firebase Cloud Firestore as well as the Firebase authentication package to equip our app with a cloud-based NoSQL database and secure authentication methods. 
+Objective is = Incorporate Firebase. Used Firebase Cloud Firestore & Firebase authentication package (cloud-based NoSQL database and secure authentication methods.) 
 
 
-## What you will create
+## Chat App with Authenticate layer
 
-We’re going to build a modern messaging app where users can sign up and log in to chat.
+Built messaging app where users can sign up and log in to chat.
 
-![Finished App](https://github.com/londonappbrewery/Images/blob/master/flash_chat_flutter_demo.gif)
+!https://drive.google.com/open?id=1dQUwpw_tJDj1NiwRsvQ_WxwOGWqfX0dw
+
 
 ## What you will learn
 
